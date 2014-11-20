@@ -11,10 +11,11 @@ filetype off
 filetype plugin indent off
 
 " Enables and loads bundles
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-Bundle 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
 source ~/.vim/bundles.vim
+call vundle#end()
 
 " Everybody likes UTF-8
 set encoding=utf-8
